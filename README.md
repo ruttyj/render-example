@@ -1,40 +1,15 @@
-# PlayDeal
+# README
 
-PlayDeal is an Online multiplayer card game where players attempt to collect X many of a sets inorder to win.
+This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
 
-Currently only has 1 room and requires 2 browser instances to play. (More rooms comming soon)
+The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
 
-![Available cards](https://i.ibb.co/sW0V0m7/PlayDeal.png)
+## Deployment
 
-# About this project
+See https://render.com/docs/deploy-node-express-app or follow the steps below:
 
-Built with React, RxJs, NodeJs & SocketIO
-This was a passion project created during the COVID-19 quarantine.
+Create a new web service with the following values:
+  * Build Command: `yarn`
+  * Start Command: `node app.js`
 
-# Get running in development
-
-Install packages
-
-    npm install
-
-Run in development mode:
-
-    npm run dev
-
-# Get running in production
-
-Install basic packages
-
-    npm install
-
-Build client source code
-
-    npm run build
-
-Run server
-
-    npm run start
-
-[
-![Gameplay screen shot](https://i.ibb.co/W03H335/screenshot.png)
-](https://i.ibb.co/W03H335/screenshot.png)
+That's it! Your web service will be live on your Render URL as soon as the build finishes.
